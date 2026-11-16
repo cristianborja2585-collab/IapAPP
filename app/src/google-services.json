@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "857390185196",
+    "project_id": "inapapp-5e2bc",
+    "storage_bucket": "inapapp-5e2bc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857390185196:android:7579607030ff2750f2c3c9",
+        "android_client_info": {
+          "package_name": "com.example.iapapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm-CWgYwVrun4po4FVd4KO0gLc2XvBAPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

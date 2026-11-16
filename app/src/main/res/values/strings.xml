@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">IAPApp</string>
+
+    <!-- Opciones para Genotipo -->
+    <string-array name="genotipo_options">
+    <!-- <item>Seleccione un genotipo</item>-->
+     <item>ADVANTA 9789</item>
+     <item>INIAP 543-QPM</item>
+     <item>INIAP H-551</item>
+     <item>INIAP H-554</item>
+ </string-array>
+
+ <!-- Opciones para VyR -->
+    <string-array name="vyr_options">
+        <!--   <item>Etepa Vegetativa y Reproductiva </item>-->
+        <item>R1</item>
+        <item>R2</item>
+        <item>V1</item>
+        <item>V10</item>
+        <item>V11</item>
+        <item>V12</item>
+        <item>V13</item>
+        <item>V14</item>
+        <item>V15</item>
+        <item>V2</item>
+        <item>V3</item>
+        <item>V4</item>
+        <item>V5</item>
+        <item>V6</item>
+        <item>V7</item>
+        <item>V8</item>
+        <item>V9</item>
+        <item>VT</item>
+    </string-array>
+
+    <!-- Opciones para IM -->
+    <string-array name="im_options">
+    <!--   <item>Inflorescencia masculina</item>-->
+      <item>No</item>
+      <item>Si</item>
+  </string-array>
+
+  <!-- Opciones para IF -->
+    <string-array name="if_options">
+        <!--  <item>Inflorescencia femenina</item>-->
+        <item>No</item>
+        <item>Si</item>
+    </string-array>
+
+        <string name="help_text">Texto de ayuda</string>
+
+
+</resources>

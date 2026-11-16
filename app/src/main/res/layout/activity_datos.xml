@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título Genotipo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione Genotipo:"
+        android:textSize="16sp"/>
+
+    <!-- Campo Genotipo -->
+    <Spinner
+        android:id="@+id/spinnerGenotipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Título DH -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distancia entre hileras (cm):"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Campo DH -->
+    <EditText
+        android:id="@+id/editTextDH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese DH"
+        android:inputType="numberDecimal"/>
+
+    <!-- Título DP -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distancia entre plantas (cm):"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Campo DP -->
+    <EditText
+        android:id="@+id/editTextDP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese DP"
+        android:inputType="numberDecimal"/>
+
+    <!-- Título VyR -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione VyR:"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Campo VyR -->
+    <Spinner
+        android:id="@+id/spinnerVyR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Título IM -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione IM:"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Campo IM -->
+    <Spinner
+        android:id="@+id/spinnerIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Título IF -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione IF:"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Campo IF -->
+    <Spinner
+        android:id="@+id/spinnerIF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Botón para enviar -->
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar Datos"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewPrediccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
